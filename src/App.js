@@ -14,7 +14,7 @@ class App extends React.Component {
   
   render() {
     return(
-      <div>
+      <div class="main">
         <p>{this.state.count}</p>
         <Button onClick={()=>{this.handleClick()}}>+</Button>
       </div>
